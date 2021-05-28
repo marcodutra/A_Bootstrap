@@ -8,23 +8,81 @@
     <title>Minha Pagina</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <!---Navbar em cima navegavel-->
+    <nav class="navbar navbar-expand-lg navbar-light margin">
         <a class="navbar-brand" href="#"> 
             <img src="/img/globallabs.png" alt="" width="220" height="80">
         </a>
         <div class="collapse navbar-collapse">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link">Quem Somos</a>
+                <a class="nav-link" href="#quemsomos">Quem Somos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link">Parceiros</a>
+                <a class="nav-link" href="#parceiros">Parceiros</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link">Serviços</a>
+                <a class="nav-link" href="#serviços">Serviços</a>
             </li>
           </ul>
         </div>
     </nav>
-</body>
+
+          <section id="quemsomos">
+                <div class="container-fluid quem-somos text-center margin">
+                    <h3 class="margin">Quem somos</h3>
+                    <img src="/img/time.jpeg" class="rounded-circle" width="450" height="400">
+                    <h3>Somos uma empresa que se compromete com a satisfaçao dos clientes</h3>
+                </div>
+          </section>
+
+          <section id="parceiros">
+              <div class="container-fluid text-center margin parceiros">
+                <h3>Parceiros</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="/img/digital.png" width="100%">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="/img/digital.png" width="100%">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="/img/digital.png" width="100%">
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </section>
+
+          <section id="serviços">
+              <div class="container-fluid text-center margin serviços">
+                <h3 class="margin">Serviços</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p>Desenvolvemos software sob medida, de acordo com sua necessidade, com soluções personalizadas que se adaptam a qualquer tipo de infraestrutura e ambiente.
+                            </p>
+                            <img src="/img/serviço1.jpg" width="100%">
+                        </div>
+                        <div class="col-lg-4">
+                            <p>Desenvolvemos software sob medida, de acordo com sua necessidade, com soluções personalizadas que se adaptam a qualquer tipo de infraestrutura e ambiente.
+                            </p>
+                            <img src="/img/serviço2.jpeg" width="100%">
+                        </div>
+                        <div class="col-lg-4">
+                            <p>Desenvolvemos software sob medida, de acordo com sua necessidade, com soluções personalizadas que se adaptam a qualquer tipo de infraestrutura e ambiente.
+                            </p>
+                            <img src="img/serviço3.jpeg" width="100%">
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </section>
+
+          <footer class="container-fluid text-center bg-footer margin">
+              <p>Desenvolvido por Marco Dutra</p>
+          </footer>
+    </body>
 </html>
